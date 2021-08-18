@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+html, body{
+	font-family: 'Hind', sans-serif;
+	scroll-behavior: smooth;
+}
+footer{
+	position: fixed;
+	left: 0;right: 0;
+	bottom: 3%;
+}
+.btn-success{
+	background: #0D8141 !important;
+}
+.bg-warning{
+	background: #FCD025;
+}
+.bg-violet{
+	background: #342664 !important;
+}
+.btn-violet{
+	background: #342664 !important;
+}
+.mx-45{
+	margin-left: 2.4rem!important;
+	margin-right: 2.4rem!important;
+}
+#float-card{
+    position: fixed;
+    bottom: 9%;right: 4%;
+}
+.border-radius-8{
+	border-radius: 8px;
+}
+.border-radius-18{
+	border-radius: 18px;
+}
+.font-weight-600{
+	font-weight: 600;
+}
+.close-float-card{
+    position: absolute;top: -4%;z-index: 9;right: -2%;
+}
+.close-float-card-img{
+    background: #fff;border-radius: 50%;padding: 6px;box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.close-float-card-reg{
+    position: absolute;top: -2.8%;z-index: 9;right: -2%;
+}
+.close-float-card-img-reg{
+    background: #fff;border-radius: 50%;padding: 6px;box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
