@@ -17,12 +17,18 @@ footer{
 .bg-violet{
 	background: #342664 !important;
 }
+.bg-dark-violet{
+	background: #1F124F !important;
+}
 .btn-violet{
 	background: #342664 !important;
 }
 .mx-45{
 	margin-left: 2.4rem!important;
 	margin-right: 2.4rem!important;
+}
+.text-warning{
+	color: #FCD025 !important;
 }
 #float-card{
     position: fixed;
@@ -31,8 +37,16 @@ footer{
 .border-radius-8{
 	border-radius: 8px;
 }
+.lh-1{
+	line-height: 1.2;
+}
 .border-radius-18{
 	border-radius: 18px;
+}
+.border-radius-18-b{
+	border-bottom-left-radius: 18px;
+	border-bottom-right-radius: 18px;
+	margin: 1px;
 }
 .font-weight-600{
 	font-weight: 600;
