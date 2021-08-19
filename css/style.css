@@ -17,6 +17,17 @@ footer{
 .bg-violet{
 	background: #342664 !important;
 }
+.btn-info{
+	background: #1972E7 !important;
+	border-radius: 20px;
+	padding: 6px 20px;
+}
+.btn-white{
+	background: #fff !important;
+	border-radius: 20px;
+	border: 1px solid #888;
+	padding: 6px 20px;
+}
 .bg-dark-violet{
 	background: #1F124F !important;
 }
