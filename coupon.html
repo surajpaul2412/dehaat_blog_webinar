@@ -34,7 +34,7 @@
 				<h5 class="text-black pt-4 font-weight-600" align="center">
 					रिपीट ब्रांडिंग का इलाज है देहात खुराक पशु आहार
 				</h5>
-				<form method="POST" class="mt-4" name="Khurak" enctype='multipart/form-data'>
+				<form method="POST" class="mt-4" name="Khurak">
 					<div class="text-success font-weight-bold">खुराक से जुड़ी अधिक जानकारी एवं ख़ास ऑफर के लिए निम्न फॉर्म को भरें</div>
 					<!--Single Line-->
 					<label>नाम <em>*</em></label>
@@ -51,8 +51,8 @@
 
 					<input type="hidden" class="lat" name="latitude">
 					<input type="hidden" class="lon" name="longitude">
-					<label>आपका स्थान </label>
-					<input type="text" class="form-control" name="location" class="test" required>
+					<label>आपका स्थान <sup><em>* (Enable Location)</em></sup></label>
+					<input type="text" name="location" class="test form-control" required>
 					<button class="btn btn-success mt-3 w-100" type="submit"><em>डिस्काउंट कूपन पायें</em></button>
 				</form>
 			</div>
@@ -68,7 +68,7 @@ const form = document.forms['Khurak']
 form.addEventListener('submit', e => {
   e.preventDefault()
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-  .then(window.location.replace("outlets.html"))
+  	.then(response => window.location.href = "outlets.html")
     .catch(error => console.error('Error!', error.message))
 })
 </script>
